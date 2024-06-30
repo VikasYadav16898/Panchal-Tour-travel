@@ -70,17 +70,7 @@ const Home = () => {
           color={"#ffffff"}
           refresh
         />
-        <motion.div
-          variants={cardVariants2}
-          initial="offscreen"
-          whileInView="onscreen"
-          viewport={{
-            once: true,
-            amount: 0.2,
-          }}
-          id="home"
-          className="w-full h-[90vh] gap-16 flex items-center"
-        >
+        <div id="home" className="w-full h-[90vh] gap-16 flex items-center">
           {/* <Meteors number={500} /> */}
           <div className=" w-full md:w-1/2 gap-4 flex flex-col ">
             {/* <AnimatedGradientText> */}
@@ -92,7 +82,7 @@ const Home = () => {
               Panghal Tour & Travels
             </h1>
             <WordRotate
-              className="text-4xl font-bold text-black dark:text-white"
+              className="text-4xl font-bold text-white dark:text-white"
               words={[
                 "Corporate Taxi",
                 "Personal Taxi",
@@ -112,7 +102,6 @@ const Home = () => {
               <a
                 className="hover:scale-105 transition-transform"
                 href="https://www.facebook.com/panghaltravel/"
-                target="_blank"
               >
                 <Image
                   width={100}
@@ -126,7 +115,6 @@ const Home = () => {
               <a
                 className="hover:scale-105 transition-transform"
                 href="https://wa.me/919813675037/?text=Hello, I would like to book a taxi."
-                target="_blank"
               >
                 <Image
                   width={100}
@@ -139,7 +127,6 @@ const Home = () => {
               <a
                 className="hover:scale-105 transition-transform"
                 href="tel:+919813675037"
-                target="_blank"
               >
                 <Image
                   width={100}
@@ -162,17 +149,10 @@ const Home = () => {
               />
             </NeonGradientCard>
           </div>
-        </motion.div>
+        </div>
 
         {/* About us */}
-        <motion.section
-          variants={cardVariants2}
-          initial="offscreen"
-          whileInView="onscreen"
-          viewport={{
-            once: true,
-            amount: 0.2,
-          }}
+        <section
           id="about-us"
           className="w-full  gap-16 flex flex-col items-center"
         >
@@ -312,19 +292,10 @@ const Home = () => {
               reverse
             />
           </div>
-        </motion.section>
+        </section>
 
         {/* Our cars */}
-        <motion.section
-          variants={cardVariants}
-          initial="offscreen"
-          whileInView="onscreen"
-          viewport={{
-            once: true,
-            amount: 0.2,
-          }}
-          className="w-full  gap-16 flex flex-col items-center"
-        >
+        <section className="w-full  gap-16 flex flex-col items-center">
           {/* <Meteors number={500} /> */}
           <div className="w-full  flex justify-center items-center gap-8 flex-col ">
             {/* <AnimatedGradientText> */}
@@ -385,18 +356,11 @@ const Home = () => {
               ))}
             </Marquee>
           </div>
-        </motion.section>
+        </section>
 
         {/* Testimonials
          */}
-        <motion.section
-          variants={cardVariants}
-          initial="offscreen"
-          whileInView="onscreen"
-          viewport={{
-            once: true,
-            amount: 0.2,
-          }}
+        <section
           id="testimonials"
           className="w-full  gap-16 flex flex-col items-center"
         >
@@ -465,7 +429,7 @@ const Home = () => {
               ))}
             </Marquee>
           </div>
-        </motion.section>
+        </section>
       </div>
       <Footer />
     </div>
