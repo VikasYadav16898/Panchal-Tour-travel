@@ -104,12 +104,9 @@ const Home = () => {
             />
             {/* </AnimatedGradientText> */}
             <h4 className="text-lg">
-              Choose from a diverse fleet of well-maintained vehicles including
-              Kia Carens, Fronx, Maruti Desire, Ertiga, Innova, and many more.
-              Serving customers since 2007, we pride ourselves on providing
-              exceptional service around the clock, 24/7. Whether you're
-              planning a short trip or a long journey, Panghal Tour and Travels
-              is your go-to choice for safe, punctual, and pleasant rides.
+              {
+                "Choose from a diverse fleet of well-maintained vehicles including Kia Carens, Fronx, Maruti Desire, Ertiga, Innova, and many more. Serving customers since 2007, we pride ourselves on providing exceptional service around the clock, 24/7. Whether you're planning a short trip or a long journey, Panghal Tour and Travels is your go-to choice for safe, punctual, and pleasant rides."
+              }
             </h4>
             <div className="flex items-center gap-8 cursor-pointer justify-center mt-4">
               <a
@@ -191,20 +188,9 @@ const Home = () => {
             </h1>
             {/* </AnimatedGradientText> */}
             <h4 className="text-lg text-left md:text-center">
-              Panghal Tour and Travels** invites you to experience top-notch
-              taxi services with our diverse fleet of well-maintained vehicles,
-              including Kia Carens, Fronx, Maruti Desire, Ertiga, Innova, and
-              many more. Since 2007, we have been dedicated to providing
-              exceptional service to our valued customers around the clock,
-              24/7. Our commitment to your satisfaction is evident in our
-              punctuality, safety standards, and the comfort of our rides.
-              Whether you're planning a short trip across town or a long journey
-              out of the city, Panghal Tour and Travels is your trusted partner.
-              Our professional drivers are courteous and knowledgeable, ensuring
-              that your travel experience is smooth and enjoyable. Choose
-              Panghal Tour and Travels for a seamless travel experience that
-              caters to your needs. With our reliable and friendly service, we
-              strive to exceed your expectations every time you ride with us.
+              {
+                "Panghal Tour and Travels** invites you to experience top-notch taxi services with our diverse fleet of well-maintained vehicles, including Kia Carens, Fronx, Maruti Desire, Ertiga, Innova, and many more. Since 2007, we have been dedicated to providing exceptional service to our valued customers around the clock, 24/7. Our commitment to your satisfaction is evident in our punctuality, safety standards, and the comfort of our rides. Whether you're planning a short trip across town or a long journey out of the city, Panghal Tour and Travels is your trusted partner. Our professional drivers are courteous and knowledgeable, ensuring that your travel experience is smooth and enjoyable. Choose Panghal Tour and Travels for a seamless travel experience that caters to your needs. With our reliable and friendly service, we strive to exceed your expectations every time you ride with us."
+              }
             </h4>
           </div>
 
@@ -351,7 +337,7 @@ const Home = () => {
             </h1>
             {/* </AnimatedGradientText> */}
             <h4 className="text-lg text-left md:text-center">
-              At Panghal Tour and Travels, we take pride in offering a diverse
+              {`At Panghal Tour and Travels, we take pride in offering a diverse
               and well-maintained fleet of vehicles to cater to all your travel
               needs. Each vehicle in our fleet is meticulously maintained to
               ensure the highest standards of safety and comfort. Whether you're
@@ -361,7 +347,7 @@ const Home = () => {
               reliable, and comfortable ride with Panghal Tour and Travels.
               Choose the perfect vehicle for your journey and enjoy the peace of
               mind that comes with our exceptional service. We look forward to
-              making your travel experience unforgettable.
+              making your travel experience unforgettable.`}
             </h4>
           </div>
 
@@ -426,14 +412,14 @@ const Home = () => {
             </h1>
             {/* </AnimatedGradientText> */}
             <h4 className="text-lg text-left md:text-center">
-              Here's what our customers have to say about their experiences with
+              {`Here's what our customers have to say about their experiences with
               Panghal Tour and Travels. We take pride in delivering exceptional
               service and ensuring your journey is comfortable, safe, and
               memorable. Read on to discover how our diverse fleet of
               well-maintained vehicles and professional drivers have made a
               difference in our customers' travels. Whether it's a family trip,
               business travel, or a weekend getaway, our commitment to your
-              satisfaction shines through in every testimonial.
+              satisfaction shines through in every testimonial.`}
             </h4>
           </div>
 
