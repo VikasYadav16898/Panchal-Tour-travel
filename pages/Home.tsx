@@ -62,14 +62,14 @@ const Home = () => {
   return (
     <div className="font-mono bg-black text-white">
       <Header />
-      <div className="relative  md:mt-0 mt-8 flex flex-col gap-20 md:overflow-hidden p-8 w-screen overflow-x-hidden items-center ">
-        <Particles
-          className="absolute inset-0"
-          quantity={500}
-          ease={800}
-          color={"#ffffff"}
-          refresh
-        />
+      <Particles
+        className="absolute inset-0"
+        quantity={500}
+        ease={800}
+        color={"#ffffff"}
+        refresh
+      />
+      <div className="relative z-40  md:mt-0 mt-8 flex flex-col gap-20 md:overflow-hidden p-8 w-screen overflow-x-hidden items-center ">
         <div id="home" className="w-full h-[90vh] gap-16 flex items-center">
           {/* <Meteors number={500} /> */}
           <div className=" w-full md:w-1/2 gap-4 flex flex-col ">
