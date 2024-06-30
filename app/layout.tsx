@@ -10,6 +10,9 @@ const robotoMono = Montserrat({
 });
 
 export const metadata: Metadata = {
+  verification: {
+    google: "wy5EMDyKhEa9DQ38dL_NwQIHTvVREHloVMRIYbqHivU",
+  },
   title: "Panghal Tour & Travels",
   description:
     "Choose from a diverse fleet of well-maintained vehicles including Kia Carens, Fronx, Maruti Desire, Ertiga, Innova, and many more. Serving customers since 2007, we pride ourselves on providing exceptional service around the clock, 24/7. Whether you're planning a short trip or a long journey, Panghal Tour and Travels is your go-to choice for safe, punctual, and pleasant rides.",

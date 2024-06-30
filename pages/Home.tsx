@@ -79,7 +79,7 @@ const Home = () => {
             amount: 0.2,
           }}
           id="home"
-          className="w-full h-[90vh] gap-16 flex items-center"
+          className="w-full h-auto md:h-[90vh] gap-16 flex items-center"
         >
           {/* <Meteors number={500} /> */}
           <div className=" w-full md:w-1/2 gap-4 flex flex-col ">
