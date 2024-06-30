@@ -70,14 +70,7 @@ const Home = () => {
         refresh
       />
       <div className="relative z-40 md:mt-0 mt-8 flex flex-col gap-20 md:overflow-hidden p-8 w-screen overflow-x-hidden items-center ">
-        <motion.div
-          variants={cardVariants2}
-          initial="offscreen"
-          whileInView="onscreen"
-          viewport={{
-            once: true,
-            amount: 0.2,
-          }}
+        <div
           id="home"
           className="w-full h-auto md:h-[90vh] gap-16 flex items-center"
         >
@@ -162,17 +155,10 @@ const Home = () => {
               />
             </NeonGradientCard>
           </div>
-        </motion.div>
+        </div>
 
         {/* About us */}
-        <motion.section
-          variants={cardVariants2}
-          initial="offscreen"
-          whileInView="onscreen"
-          viewport={{
-            once: true,
-            amount: 0.2,
-          }}
+        <section
           id="about-us"
           className="w-full  gap-16 flex flex-col items-center"
         >
@@ -312,19 +298,10 @@ const Home = () => {
               reverse
             />
           </div>
-        </motion.section>
+        </section>
 
         {/* Our cars */}
-        <motion.section
-          variants={cardVariants}
-          initial="offscreen"
-          whileInView="onscreen"
-          viewport={{
-            once: true,
-            amount: 0.2,
-          }}
-          className="w-full  gap-16 flex flex-col items-center"
-        >
+        <section className="w-full  gap-16 flex flex-col items-center">
           {/* <Meteors number={500} /> */}
           <div className="w-full  flex justify-center items-center gap-8 flex-col ">
             {/* <AnimatedGradientText> */}
@@ -385,18 +362,11 @@ const Home = () => {
               ))}
             </Marquee>
           </div>
-        </motion.section>
+        </section>
 
         {/* Testimonials
          */}
-        <motion.section
-          variants={cardVariants}
-          initial="offscreen"
-          whileInView="onscreen"
-          viewport={{
-            once: true,
-            amount: 0.2,
-          }}
+        <section
           id="testimonials"
           className="w-full  gap-16 flex flex-col items-center"
         >
@@ -465,7 +435,7 @@ const Home = () => {
               ))}
             </Marquee>
           </div>
-        </motion.section>
+        </section>
       </div>
       <Footer />
     </div>
