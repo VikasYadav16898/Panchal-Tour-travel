@@ -60,7 +60,7 @@ const Home = () => {
   };
 
   return (
-    <div className="font-mono">
+    <div className="font-mono bg-black text-white">
       <Header />
       <div className="relative  md:mt-0 mt-8 flex flex-col gap-20 md:overflow-hidden p-8 w-screen overflow-x-hidden items-center ">
         <Particles
@@ -152,7 +152,7 @@ const Home = () => {
             </div>
           </div>
           <div className=" hidden md:flex w-1/2 ">
-            <NeonGradientCard className="w-full items-center justify-center text-center">
+            <NeonGradientCard className="w-full bg-primary items-center justify-center text-center">
               <Image
                 width={100}
                 height={100}
